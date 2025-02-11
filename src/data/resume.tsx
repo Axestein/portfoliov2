@@ -96,7 +96,7 @@ export const DATA = {
       start: "Dec 2024",
       end: "Jan 2025",
       description:
-        "Developed key features for Bluestock’s platform, including IPO, community, products pages, and homepage, improving user experience and engagement by 30%. Built and optimized the admin dashboard and RESTful API for managing upcoming IPOs, improving backend performance by 25% and ensuring scalability",
+        "Developed key features for Bluestock platform, including IPO, community, products pages, and homepage, improving user experience and engagement by 30%. Built and optimized the admin dashboard and RESTful API for managing upcoming IPOs, improving backend performance by 25% and ensuring scalability",
       offerLetterUrl: "https://drive.google.com/file/d/15CqMWOLBRxPIl_a1J179ViXP958tMj4i/view?usp=sharing", 
     },
     {
@@ -135,7 +135,7 @@ export const DATA = {
       logoUrl: "/mlsa.jpg",
       start: "Oct 2024",
       end: "Present",
-      description: "I developed the club's website, ensuring it was fully responsive and easy to navigate. This involved designing a user-friendly interface, implementing features, and optimizing the site to enhance the overall experience for members. I used modern web technologies, including React.js and Tailwind CSS, to build a fast and visually appealing platform.",
+      description: "I developed the club website, ensuring it was fully responsive and easy to navigate. This involved designing a user-friendly interface, implementing features, and optimizing the site to enhance the overall experience for members. I used modern web technologies, including React.js and Tailwind CSS, to build a fast and visually appealing platform.",
     },
     {
       company: "ACM SIGKDD",
@@ -157,7 +157,7 @@ export const DATA = {
       logoUrl: "/tph.jpg",
       start: "March 2024",
       end: "Present",
-      description: "I designed posters for two major events, creating visually engaging and informative materials that helped promote the events to a wider audience. Additionally, I assisted in the UI design of the website, collaborating with the design team to create a user-friendly interface. I focused on enhancing the visual appeal and functionality of the website, ensuring that it was intuitive, responsive, and aligned with the club's branding.",
+      description: "I designed posters for two major events, creating visually engaging and informative materials that helped promote the events to a wider audience. Additionally, I assisted in the UI design of the website, collaborating with the design team to create a user-friendly interface. I focused on enhancing the visual appeal and functionality of the website, ensuring that it was intuitive, responsive, and aligned with the club branding.",
     },
   ],
 
@@ -165,7 +165,7 @@ export const DATA = {
     {
       school: "SRM University of science and technology",
       href: "https://www.srmist.edu.in/",
-      degree: "Bachelor's in Technology(B.Tech)",
+      degree: "Bachelors in Technology(B.Tech)",
       logoUrl: "/srmlogo.jpg",
       start: "2023",
       end: "2027",
@@ -222,7 +222,7 @@ export const DATA = {
       dates: "Dec 2024 - Dec 2024",
       active: true,
       description:
-        "ThreeFund Empower's Communities Through Web3 Crowdfunding. How it Works? 1) Create a Campaign 2) Connect Your Wallet 3) Share with Your Communityc 4) Collect Funds and Distribute Transparently",
+        "ThreeFund Empowers Communities Through Web3 Crowdfunding. How it Works? 1) Create a Campaign 2) Connect Your Wallet 3) Share with Your Communityc 4) Collect Funds and Distribute Transparently",
       technologies: [
         "Next.js",
         "Typescript",

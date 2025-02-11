@@ -17,12 +17,13 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
-              />
+            <BlurFadeText
+            delay={BLUR_FADE_DELAY}
+            className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+            yOffset={8}
+            text={`Hi, I&apos;m ${DATA.name.split(" ")[0]} 👋`} // Update
+            />
+
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
@@ -161,7 +162,7 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.
+                  I have worked on a variety of projects, from simple websites and apps to complex web applications. Here are a few of my favorites.
                 </p>
               </div>
             </div>
