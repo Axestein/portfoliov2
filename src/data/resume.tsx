@@ -2,9 +2,9 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Aditya Kumar Singh",
+  name: "Aditya Portfolio",
   initials: "Aks",
-  url: "https://dillion.io",
+  url: "https://portfoliov2-three-steel.vercel.app/",
   location: "Chennai, India",
   locationLink: "https://www.google.com/maps/place/S.R.M+UNIVERSITY+-K.T.R+Campus/@12.8231431,80.0413663,17z/data=!3m1!4b1!4m6!3m5!1s0x3a52f76d4cecae21:0x4ffbf1222ec00611!8m2!3d12.8231431!4d80.0413663!16s%2Fg%2F11c2jyj5gq?entry=ttu",
   description:
