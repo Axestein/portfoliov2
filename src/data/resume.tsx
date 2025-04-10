@@ -187,6 +187,94 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "10xCoders",
+      dates: "Jan 2025 - Feb 2025",
+      active: true,
+      description:
+        "Make yourself 10 times better coder than you were before! Prepare For Interviews, Machine Coding Rounds, Enhance Resume, Enhance Your Social Profiles, Get Personalized Roadmap and Resources, Plan Your Day and a multi platform profile Page kind of like codefolio.",
+      technologies: [
+        "React.js",
+        "Express.js",
+        "MongoDB",
+        "Node.js",
+        "Figma",
+        "Web Speech API",
+        "VapiAI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://sikhshasoladuai.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Axestein/shikshasoladu.ai",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/codershubpro1.png",
+    },
+    {
+      title: "FitFlow.ai",
+      dates: "Feb 2025 - Feb 2025",
+      active: true,
+      description:
+        "Balancing Fitness in Busy Schedule is tough? Dont worry FitFlow.ai Got You Covered. It is an AI-driven fitness platform that generates personalized workout and nutrition plans, provides real-time form correction through a video assistant, and counts reps using computer vision — and much more.",
+      technologies: [ 
+        "Tenserflow.js",
+        "Mediapipeline",
+        "OpenCV",
+        "React.js",
+        "Express.js",
+        "MongoDB",
+        "Node.js",
+        "Figma"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://fitflow-excercise.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Axestein/FitFlow.ai",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Fitflow.png",
+    },
+    {
+      title: "ShikshaSoladu.ai",
+      dates: "March 2025 - March 2025",
+      active: true,
+      description:
+        "ShikshaSoladu.ai is an inclusive education platform designed for students with disabilities. It provides AI-based learning tools with support for the blind, deaf, mute, and differently-abled learners.",
+      technologies: [ 
+        "React.js",
+        "Express.js",
+        "MongoDB",
+        "Node.js",
+        "Figma",
+        "GeminiAPI",
+        "Google Cloud",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://sikhshasoladuai.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Axestein/shikshasoladu.ai",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/shikshasoladu.png",
+    },
+    {
       title: "Bidlink",
       href: "",
       dates: "Jan 2025 - Jan 2025",
@@ -196,8 +284,10 @@ export const DATA = {
       technologies: [
         "Next.js",
         "Tailwind CSS",
+        "Peer.js",
         "Express.js",
         "Node.js",
+        "Postman",
         "MongoDB",
         "Git",
         "OpenAI API",
@@ -245,35 +335,6 @@ export const DATA = {
         },
       ],
       image: "/threefund2.png",
-    },
-    {
-      title: "10xCoders",
-      dates: "August 2024 - August 2024",
-      active: true,
-      description:
-        "Make yourself 10 times better coder than you were before! Prepare For Interviews, Machine Coding Rounds, Enhance Resume, Enhance Your Social Profiles, Get Personalized Roadmap and Resources, Plan Your Day and a multi platform profile Page kind of like codefolio.",
-      technologies: [
-        "React.js",
-        "Express.js",
-        "MongoDB",
-        "Node.js",
-        "Figma",
-        "Web Speech API",
-        "Flask",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://10x-coders.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Axestein/10xCoders",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/codershubpro1.png",
     },
     {
       title: "WearIt",

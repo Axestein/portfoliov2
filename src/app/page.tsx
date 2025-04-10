@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { GithubGraph } from "@/components/github";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -136,19 +137,73 @@ export default function Page() {
       </section>
 
       <section id="skills">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
-          </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
-              </BlurFade>
-            ))}
-          </div>
+  <div className="flex min-h-0 flex-col gap-y-3">
+    <BlurFade delay={BLUR_FADE_DELAY * 9}>
+      <h2 className="text-xl font-bold">Skills</h2>
+    </BlurFade>
+    <div className="flex flex-col gap-4">
+      {/* Frontend */}
+      <div>
+        <h3 className="text-sm font-semibold text-neutral-600 dark:text-neutral-300 mb-1">Frontend</h3>
+        <div className="flex flex-wrap gap-1">
+          {["React.js", "React Native", "Next.js", "JavaScript", "TypeScript", "TailwindCSS"].map((skill, id) => (
+            <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+              <Badge>{skill}</Badge>
+            </BlurFade>
+          ))}
         </div>
-      </section>
+      </div>
+
+      {/* Backend */}
+      <div>
+        <h3 className="text-sm font-semibold text-neutral-600 dark:text-neutral-300 mb-1">Backend</h3>
+        <div className="flex flex-wrap gap-1">
+          {["Node.js", "Express.js", "Flask", "SpringBoot"].map((skill, id) => (
+            <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+              <Badge>{skill}</Badge>
+            </BlurFade>
+          ))}
+        </div>
+      </div>
+
+      {/* Database */}
+      <div>
+        <h3 className="text-sm font-semibold text-neutral-600 dark:text-neutral-300 mb-1">Database</h3>
+        <div className="flex flex-wrap gap-1">
+          {["MongoDB", "MySQL","Firebase","PostgreSQL"].map((skill, id) => (
+            <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+              <Badge>{skill}</Badge>
+            </BlurFade>
+          ))}
+        </div>
+      </div>
+
+      {/* AI/ML */}
+      <div>
+        <h3 className="text-sm font-semibold text-neutral-600 dark:text-neutral-300 mb-1">AI/ML</h3>
+        <div className="flex flex-wrap gap-1">
+          {["TensorFlow", "PyTorch", "OpenCV","Mediapipe","Hugging Face","Scikit-learn","keras"].map((skill, id) => (
+            <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+              <Badge>{skill}</Badge>
+            </BlurFade>
+          ))}
+        </div>
+      </div>
+
+      {/* Tools */}
+      <div>
+        <h3 className="text-sm font-semibold text-neutral-600 dark:text-neutral-300 mb-1">Tools</h3>
+        <div className="flex flex-wrap gap-1">
+          {["Git", "Docker", "Figma", "Jira", "PostMan", "Google Cloud"].map((skill, id) => (
+            <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+              <Badge>{skill}</Badge>
+            </BlurFade>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section id="projects">
         <div className="space-y-12 w-full py-12">
@@ -198,6 +253,12 @@ export default function Page() {
               <h2 className="text-black dark:text-white text-3xl font-bold tracking-tighter sm:text-5xl">
                 I love building things and contributing to OpenSource projects
               </h2>
+              <GithubGraph
+              username="Axestein"
+              blockMargin={2}
+              lightColorPalette={["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"]}
+              darkColorPalette={["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]}
+              />
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Check out my Holopin badges and see the contributions I'm proud of!{" "}
                 <Link
