@@ -192,7 +192,7 @@ export const DATA = {
       dates: "Jan 2025 - Jan 2025",
       active: true,
       description:
-        "A cutting-edge auction platform designed to unite investors and SMEs seamlessly using a bidding system",
+        "A auction platform integrating peer-to-peer lending to connect investors with SMEs, featuring real-time bidding, AI-driven risk assessment, AI Pitch Analysis and what not!",
       technologies: [
         "Next.js",
         "Tailwind CSS",
@@ -251,7 +251,7 @@ export const DATA = {
       dates: "August 2024 - August 2024",
       active: true,
       description:
-        "CodersHub is a premier platform dedicated to empowering individuals embarking on their tech journey. CodersHub provides interview preparation with help of ai, resume builder and enhancement, tailored roadmaps and comprehensive resources,ai support and best communities to join.",
+        "Make yourself 10 times better coder than you were before! Prepare For Interviews, Machine Coding Rounds, Enhance Resume, Enhance Your Social Profiles, Get Personalized Roadmap and Resources, Plan Your Day and a multi platform profile Page kind of like codefolio.",
       technologies: [
         "React.js",
         "Express.js",
@@ -264,12 +264,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://coders-hub-iota.vercel.app/",
+          href: "https://10x-coders.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/Axestein/CodersHub",
+          href: "https://github.com/Axestein/10xCoders",
           icon: <Icons.github className="size-3" />,
         },
       ],
