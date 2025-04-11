@@ -204,12 +204,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://sikhshasoladuai.vercel.app/",
+          href: "https://10x-coders.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/Axestein/shikshasoladu.ai",
+          href: "https://github.com/Axestein/10xCoders",
           icon: <Icons.github className="size-3" />,
         },
       ],
