@@ -8,7 +8,10 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { GithubGraph } from "@/components/github";
-
+import { TestimonialCard } from "@/components/testimonial-card";
+import { CertificationCard } from "@/components/certification-card";
+import { CertificationCardsCarousel } from "@/components/certification-card";
+import { TestimonialCarousel } from "@/components/testimonial-card";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -65,7 +68,7 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
-
+      
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -243,6 +246,105 @@ export default function Page() {
         </div>
       </section>
 
+      <section id="certifications">
+  <div className="space-y-12 w-full py-12">
+    <BlurFade delay={BLUR_FADE_DELAY * 15}>
+      <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <div className="space-y-4 max-w-3xl">
+          <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+            My Credentials
+          </div>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            Certifications
+          </h2>
+          <p className="text-muted-foreground md:text-lg/relaxed lg:text-xl/relaxed">
+            Industry-recognized certifications that validate my technical expertise across multiple platforms.
+          </p>
+        </div>
+        
+        {/* Carousel Container with proper spacing */}
+        <div className="w-full ">
+          <CertificationCardsCarousel 
+            certifications={[
+              {
+                title: "NPTEL Programming in Java",
+                issuer: "IIT Kharagpur",
+                date: "Nov 2024",
+                skills: ["Java"],
+                image: "/nptel.png",
+                credentialUrl: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS105S145250725203900560"
+              },
+              {
+                title: "Docker Essentials",
+                issuer: "IBM",
+                date: "Jan 2025",
+                skills: ["Docker"],
+                image: "/dockercert.png",
+                credentialUrl: "https://courses.cognitiveclass.ai/certificates/c2085070c0744def933f41384ddf22b3"
+              },
+              {
+                title: "Matlab and ML/DL onramp",
+                issuer: "MathWorks",
+                date: "Fen 2025",
+                skills: ["MatLab","Machine Learning","Deep Learning"],
+                image: "/matlab.png",
+                credentialUrl: "https://drive.google.com/drive/folders/1iQuQ4_4vzSu8V7ph5d9KOYtRPkei27gz"
+              },
+              {
+                title: "Programming in C",
+                issuer: "Udemy",
+                date: "Feb 2023",
+                skills: ["C"],
+                image: "/ccert.png",
+                credentialUrl: "https://www.udemy.com/certificate/UC-150d664f-4136-45a3-a01e-5d6f73f6f0c8/"
+              },
+            ]} 
+          />
+        </div>
+      </div>
+    </BlurFade>
+  </div>
+</section>
+
+      <section id="testimonials">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Testimonials
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  What People Say
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Don't just take my word for it - see what clients and colleagues have to say about working with me.
+                </p>
+              </div>
+              <TestimonialCarousel 
+  testimonials={[
+    {
+      name: "Arnav Madan",
+      role: "CEO",
+      company: "Niramaya",
+      text: "Aditya played a key role in our web development team, contributing significantly to both frontend and back-end integration. His ability to design, develop, and maintain high-quality web applications ensured a seamless user experience and improved overall functionality. Additionally,his expertise in debugging, troubleshooting, and performance optimization made a positive impact on our digital platforms.",
+      avatar: "/arnavmadan.png"
+    },
+    {
+      name: "Dattatrey kshirsagar",
+      role: "Client",
+      company: "SunShine School",
+      text: "I had the pleasure of working with Aditya to bring our preschool's website to life, and the experience was fantastic from start to finish. They started with a clean, user-friendly Figma design and turned it into a fully functional website with features like a gallery, call booking, and more. The end result perfectly captured our brand and made it easy for parents to connect with us. Highly recommended!",
+      avatar: "/sunshineprin.png"
+    },
+  ]} 
+/>
+            </div>
+          </BlurFade>
+      
+        </div>
+      </section>
+
       <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
@@ -251,7 +353,7 @@ export default function Page() {
                 Open Source Contributions
               </div>
               <h2 className="text-black dark:text-white text-3xl font-bold tracking-tighter sm:text-5xl">
-                I love building things and contributing to OpenSource projects
+                I love building things and contributing to OpenSource projects 
               </h2>
               <GithubGraph
               username="Axestein"
@@ -260,7 +362,7 @@ export default function Page() {
               darkColorPalette={["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]}
               />
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Check out my Holopin badges and see the contributions I'm proud of!{" "}
+                I have Previously contributed in Hacktoberfest, SWOC 24, GSSOC 24 and many Club Projects. Check out my Holopin badges and see the contributions I'm proud of!{" "}
                 <Link
                   href="https://www.holopin.io/@axestein#"
                   target="_blank"
@@ -275,7 +377,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section id="contact">
+      {/*<section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
@@ -299,6 +401,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+      */}
     </main>
   );
 }

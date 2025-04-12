@@ -113,7 +113,57 @@ export const DATA = {
       offerLetterUrl: "https://drive.google.com/file/d/1093uRtBmDNpxnlvgsPwB0n-E7qm4O-w0/view?usp=sharing", 
     }
   ],
-
+  testimonials: [
+    {
+      name: "Arnav Madan",
+      role: "CEO",
+      company: "Niramaya",
+      text: " Aditya played a key role in our web development team, contributing significantly to both frontend and back-end integration. His ability to design, develop, and maintain high-quality web applications ensured a seamless user experience and improved overall functionality. Additionally,his expertise in debugging, troubleshooting, and performance optimization made a positive impact on our digital platforms.",
+      avatar: "/sarah-johnson.jpg"
+    },
+    {
+      name: "Dattatrey kshirsagar",
+      role: "Client",
+      company: "SunShine School",
+      text: "I had the pleasure of working with Aditya to bring our preschool's website to life, and the experience was fantastic from start to finish. They started with a clean, user-friendly Figma design and turned it into a fully functional website with features like a gallery, call booking, and more. The end result perfectly captured our brand and made it easy for parents to connect with us. Highly recommended!",
+      avatar: "/michael-chen.jpg"
+    }
+  ],
+  certifications: [
+    {
+      title: "AWS Certified Solutions Architect",
+      issuer: "Amazon Web Services",
+      date: "June 2023",
+      skills: ["Cloud Architecture", "AWS", "DevOps"],
+      image: "/aws-cert.jpg",
+      credentialUrl: "https://example.com/verify-aws-cert"
+    },
+    {
+      title: "Google Professional Data Engineer",
+      issuer: "Google Cloud",
+      date: "March 2023",
+      skills: ["Data Engineering", "BigQuery", "Machine Learning"],
+      image: "/google-cloud-cert.jpg",
+      credentialUrl: "https://example.com/verify-gcp-cert"
+    },
+    {
+      title: "Microsoft Certified: Azure Developer Associate",
+      issuer: "Microsoft",
+      date: "January 2023",
+      skills: ["Azure", ".NET", "Cloud Development"],
+      image: "/azure-cert.jpg",
+      credentialUrl: "https://example.com/verify-ka"
+    },
+    {
+      title: "Certified Kubernetes Administrator",
+      issuer: "Cloud Native Computing Foundation",
+      date: "November 2022",
+      skills: ["Kubernetes", "Containers", "DevOps"],
+      image: "/cka-cert.jpg",
+      credentialUrl: "https://example.com/verify-cka"
+    }
+],
+  
   clubs: [ 
     {
       company: "NSCC SRM",
