@@ -285,7 +285,7 @@ export default function Page() {
               {
                 title: "Matlab and ML/DL onramp",
                 issuer: "MathWorks",
-                date: "Fen 2025",
+                date: "Feb 2025",
                 skills: ["MatLab","Machine Learning","Deep Learning"],
                 image: "/matlab.png",
                 credentialUrl: "https://drive.google.com/drive/folders/1iQuQ4_4vzSu8V7ph5d9KOYtRPkei27gz"
