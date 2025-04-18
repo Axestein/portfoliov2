@@ -331,12 +331,19 @@ export default function Page() {
       avatar: "/arnavmadan.png"
     },
     {
+      name: "Karthik",
+      role: "Tech Lead",
+      company: "Runverve",
+      text: "Aditya has been a great developer at RunVerve. His code is always neat, and he consistently delivers high-quality work within deadlines. He's incredibly productive, and we're happy to have him on the team as a React Native developer",
+      avatar: "/karthik.jpeg"
+    },
+    {
       name: "Dattatrey kshirsagar",
       role: "Client",
       company: "SunShine School",
       text: "I had the pleasure of working with Aditya to bring our preschool's website to life, and the experience was fantastic from start to finish. They started with a clean, user-friendly Figma design and turned it into a fully functional website with features like a gallery, call booking, and more. The end result perfectly captured our brand and made it easy for parents to connect with us. Highly recommended!",
       avatar: "/sunshineprin.png"
-    },
+    }, 
   ]} 
 />
             </div>
