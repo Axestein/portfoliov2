@@ -74,6 +74,19 @@ export const DATA = {
 
   work: [
     {
+      company: "IIT Bombay",
+      href: "https://www.runverve.tech/",
+      badges: ["Remote"],
+      location: "Remote",
+      title: "Project Intern (FullStack Dev)",
+      logoUrl: "/iitbombaylogo.png",
+      start: "Apr 2025",
+      end: "Present",
+      description:
+        "Will update this once the project is completed (Due to confidentiality).",
+      offerLetterUrl: "", 
+    },
+    {
       company: "Runverve",
       href: "https://www.runverve.tech/",
       badges: ["Remote"],
