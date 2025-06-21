@@ -75,7 +75,7 @@ export const DATA = {
   work: [
     {
       company: "IIT Bombay",
-      href: "https://www.runverve.tech/",
+      href: "https://ciphersolutionswebsite.vercel.app/",
       badges: ["Remote"],
       location: "Remote",
       title: "Project Intern (FullStack Dev)",
@@ -83,7 +83,7 @@ export const DATA = {
       start: "Apr 2025",
       end: "Present",
       description:
-        "Will update this once the project is completed (Due to confidentiality).",
+        "Contributed to both frontend and backend development, ensuring real-time interaction and data accuracy for law enforcement operations. Enabled deployment readiness by optimizing the chatbot for desktop use, resulting in official approval by Zone-X Mumbai Police for in-station implementation",
       offerLetterUrl: "", 
     },
     {
@@ -358,7 +358,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://github.com/Axestein/BidLink",
+          href: "https://bidlink.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
