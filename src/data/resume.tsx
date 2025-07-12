@@ -74,6 +74,19 @@ export const DATA = {
 
   work: [
     {
+      company: "State Bank Of India",
+      href: "",
+      badges: ["Onsite"],
+      location: "Onsite",
+      title: "Intern",
+      logoUrl: "/sbilogo.png",
+      start: "May 2025",
+      end: "Present",
+      description:
+        "Worked on the project MiniCRM for internal task tracking.",
+      offerLetterUrl: "", 
+    },
+    {
       company: "IIT Bombay",
       href: "https://ciphersolutionswebsite.vercel.app/",
       badges: ["Remote"],
@@ -93,8 +106,8 @@ export const DATA = {
       location: "Remote",
       title: "App Developer Intern",
       logoUrl: "/runverve.jpg",
-      start: "Feb 2025",
-      end: "Present",
+      start: "Jan 2025",
+      end: "May 2025",
       description:
         "Developed and optimized core features of the fitness app, including workout tracking and progress monitoring, enhancing user engagement by 40% using React Native. Collaborated on app performance improvements and UI/UX enhancements, reducing load times by 20% andincreasing overall user retention through intuitive design and smooth navigation.",
       offerLetterUrl: "https://drive.google.com/file/d/1ejssiQsYXSu9HCuKM5TcFZX-oGG-tZ2b/view?usp=sharing", 

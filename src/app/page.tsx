@@ -46,7 +46,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 2}>
             <div className="flex justify-items-start">
               <a
-                href="https://drive.google.com/file/d/1dsu32FxHFZzK5GIQfQuOYP0NgNnQ9-P8/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ulajJUmJ07ushqtBtmqck9ohN3XaW5ov/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-3 text-white bg-gray-800 dark:bg-gray-200 dark:text-gray-800 rounded-lg hover:bg-blue-600 transition-all duration-300"
