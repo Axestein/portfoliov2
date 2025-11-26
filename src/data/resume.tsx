@@ -8,7 +8,7 @@ export const DATA = {
   location: "Chennai, India",
   locationLink: "https://www.google.com/maps/place/S.R.M+UNIVERSITY+-K.T.R+Campus/@12.8231431,80.0413663,17z/data=!3m1!4b1!4m6!3m5!1s0x3a52f76d4cecae21:0x4ffbf1222ec00611!8m2!3d12.8231431!4d80.0413663!16s%2Fg%2F11c2jyj5gq?entry=ttu",
   description:
-    "Web and App Developer, UI/UX Designer. I love building things and Passionate About Creating User-Centered Solutions",
+    "FullStack Web, App Developer and AI/ML Researcher. I love building things and Passionate About Creating User-Centered Solutions",
   summary:
     "I am a second-year Computer Science undergraduate at SRM University, Chennai, specializing in both frontend and backend web development. I create intuitive web applications and manage version control using Git and GitHub. With a strong focus on data structures and algorithms, I am committed to building efficient and scalable solutions. Additionally, I use Figma and Framer for UI design. Currently, I am expanding my knowledge by learning Web3 technologies. Outside of coding, I enjoy playing chess and am eager to connect with fellow tech enthusiasts to explore collaborative opportunities.",
   avatarUrl: "/adityalinkedin.jpg",
